@@ -1,0 +1,25 @@
+{
+  "name": "codeone-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/app.js -o chat.bundle.js",
+    "watch": "watchify src/app.js -o chat.bundle.js --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joerter/chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joerter/chat/issues"
+  },
+  "homepage": "https://github.com/joerter/chat",
+  "dependencies": {
+    "mithril": "^0.2.0",
+    "firebase": "^2.2.9"
+  }
+}
